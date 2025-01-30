@@ -1,0 +1,118 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    padding: 30px;
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.contacts a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Разделы */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #3498db;
+    font-size: 24px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Стили для навыков */
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skills .tag {
+    display: inline-block;
+    background: #ecf0f1;
+    padding: 5px 12px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skills .tag:hover {
+    transform: scale(1.1);
+    background-color: #3498db;
+    color: white;
+}
+
+/* Проекты */
+.project-item {
+    margin-bottom: 25px;
+}
+
+.project-item h3 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.project-item ul {
+    padding-left: 20px;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+.project-item ul li {
+    margin-bottom: 8px;
+}
+
+/* Кнопки и ссылки */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
